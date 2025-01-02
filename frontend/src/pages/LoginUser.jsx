@@ -28,7 +28,7 @@ function LoginUser() {
     setloading(true);
     seterror(false);
     try {
-      const res = await fetch(`http://localhost:4000/user/login`, {
+      const res = await fetch(`https://cerbookingonline.onrender.com/user/login`, {
         method: "POST",
         credentials: "include",
         headers: {
