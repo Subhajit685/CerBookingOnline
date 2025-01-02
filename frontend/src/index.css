@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* index.css or global styles */
+body {
+    @apply bg-gray-100 text-gray-700;
+  }
+  
+  header {
+    @apply bg-white shadow-lg rounded-lg p-6;
+  }
+  
+  .summary-card {
+    @apply flex items-center justify-between p-6 rounded-lg shadow-md;
+  }
+  
+
