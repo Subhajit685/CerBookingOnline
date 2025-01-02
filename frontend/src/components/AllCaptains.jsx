@@ -7,7 +7,7 @@ function AllCaptains() {
 
   const fetchCaptains = async () => {
     try {
-      const res = await fetch(`http://localhost:4000/admin/allcaptain`, {
+      const res = await fetch(`https://cerbookingonline.onrender.com/admin/allcaptain`, {
         method: "GET",
         credentials: "include",
         headers: {
