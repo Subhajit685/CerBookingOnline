@@ -4,7 +4,7 @@ export const captainContext = createContext(null)
 
 const CaptainContextProvider = ({children}) => {
 
-    const url = `http://localhost:4000`
+    const url = `https://cerbookingonline.onrender.com`
 
     const [captain, setcaptain] = useState(null)
     const [showRequest, setshowRequest] = useState(false)
