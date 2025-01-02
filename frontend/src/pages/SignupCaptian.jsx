@@ -48,7 +48,7 @@ function SignupCaptian() {
     setloading(true);
     seterror(false);
     try {
-      const res = await fetch(`http://localhost:4000/captain/create`, {
+      const res = await fetch(`https://cerbookingonline.onrender.com/captain/create`, {
         method: "POST",
         credentials: "include",
         headers: {
