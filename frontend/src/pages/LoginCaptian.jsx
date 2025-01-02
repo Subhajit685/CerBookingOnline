@@ -29,7 +29,7 @@ function LoginCaptian() {
     setloading(true);
     seterror(false);
     try {
-      const res = await fetch(`http://localhost:4000/captain/login`, {
+      const res = await fetch(`https://cerbookingonline.onrender.com/captain/login`, {
         method: "POST",
         credentials: "include",
         headers: {
