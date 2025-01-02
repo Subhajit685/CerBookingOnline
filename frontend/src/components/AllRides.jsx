@@ -7,7 +7,7 @@ function AllRides() {
 
   const fetchRides = async () => {
     try {
-      const res = await fetch(`http://localhost:4000/admin/allride`, {
+      const res = await fetch(`https://cerbookingonline.onrender.com/admin/allride`, {
         method: "GET",
         credentials: "include",
         headers: {
