@@ -8,7 +8,7 @@ export const SocketContext = createContext();
 const SocketProvider = ({ children }) => {
   const { captain } = useContext(captainContext);
   const { user } = useContext(userContext);
-  const socket = io("http://localhost:4000");
+  const socket = io("https://cerbookingonline.onrender.com");
 
   useEffect(() => {
     if (user || captain) {
