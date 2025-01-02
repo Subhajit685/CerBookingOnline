@@ -17,7 +17,7 @@ function AdminDashboard() {
 
   const allUser = async () => {
     try {
-      const res = await fetch(`http://localhost:4000/admin/allsuer`, {
+      const res = await fetch(`https://cerbookingonline.onrender.com/admin/allsuer`, {
         method: "GET",
         credentials: "include",
         headers: {
@@ -35,7 +35,7 @@ function AdminDashboard() {
   };
   const allCaptain = async () => {
     try {
-      const res = await fetch(`http://localhost:4000/admin/allcaptain`, {
+      const res = await fetch(`https://cerbookingonline.onrender.com/admin/allcaptain`, {
         method: "GET",
         credentials: "include",
         headers: {
@@ -53,7 +53,7 @@ function AdminDashboard() {
   };
   const allRide = async () => {
     try {
-      const res = await fetch(`http://localhost:4000/admin/allride`, {
+      const res = await fetch(`https://cerbookingonline.onrender.com/admin/allride`, {
         method: "GET",
         credentials: "include",
         headers: {
@@ -91,7 +91,7 @@ function AdminDashboard() {
     e.preventDefault()
     setloading(true)
     try {
-      const res = await fetch(`http://localhost:4000/admin/updateadmin`,{
+      const res = await fetch(`https://cerbookingonline.onrender.com/admin/updateadmin`,{
         method : "POST",
         credentials : 'include',
         headers : {
@@ -116,7 +116,7 @@ function AdminDashboard() {
     e.preventDefault()
     setloading2(true)
     try {
-      const res = await fetch(`http://localhost:4000/admin/update`,{
+      const res = await fetch(`https://cerbookingonline.onrender.com/admin/update`,{
         method : "POST",
         credentials : 'include',
         headers : {
