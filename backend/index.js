@@ -11,9 +11,11 @@ import cors from "cors"
 import path from "path"
 import {app, server} from "./socket.js"
 
-const PORT = process.env.PORT || 4000;
-
 dotenv.config();
+
+const PORT = process.env.PORT;
+
+
 dbConnection()
 
 const __dirname = path.resolve()
