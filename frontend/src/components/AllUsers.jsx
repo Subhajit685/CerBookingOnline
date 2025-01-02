@@ -5,7 +5,7 @@ function AllUsers() {
 
   const allUser = async () =>{
     try {
-        const res = await fetch(`http://localhost:4000/admin/allsuer`,{
+        const res = await fetch(`https://cerbookingonline.onrender.com/admin/allsuer`,{
             method : "GET",
             credentials : "include",
             headers : {
