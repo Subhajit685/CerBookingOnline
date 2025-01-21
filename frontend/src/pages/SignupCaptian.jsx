@@ -330,7 +330,7 @@ function SignupCaptian() {
         </form>
         <p className="text-sm py-4 text-red-700">
           Already have an account ?{" "}
-          <Link to={"/login-user"} className="hover:text-blue-600">
+          <Link to={"/login-captain"} className="hover:text-blue-600">
             Login
           </Link>
         </p>
